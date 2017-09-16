@@ -6,34 +6,35 @@
 
 ## Examples
 
-To show it in action:
+To see it in action:
 
-  1. clone the repo :
+1. Clone the repo:
 
+  ```
+  git clone https://github.com/Gastonite/pwet-wall
+  ```
 
-    git clone https://github.com/Gastonite/pwet-wall
-
-
-  2. Install **pwet-wall** and example dependencies:
+2. Install **pwet-wall** and example dependencies:
 
   - if you are using yarn :
 
-
+    ```
     yarn && cd example && yarn && yarn dev
-
+    ```
   - if you are using npm :
 
-
+    ```
     npm i && cd example && npm i && npm run dev
+    ```
 
-
-  3. Now the demo is visible at [http://localhost:3000](http://localhost:3000)
+3. Now the demo is visible at [http://localhost:3000](http://localhost:3000)
 
 
 ## Installation
-
-    yarn add -D pwet-wall
-
-  or
-
-    npm i -D pwet-wall
+  ```
+  yarn add -D pwet-wall
+  ```
+or
+  ```
+  npm i -D pwet-wall
+  ```
