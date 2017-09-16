@@ -1,0 +1,12 @@
+{
+  "name": "pwet-wall",
+  "version": "0.0.0",
+  "description": "It's just another brick in the wall",
+  "main": "index.js",
+  "author": "Clément Pasquier <clement@n00sphere.net>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "pwet": "^1.4.4",
+    "pwet-idom": "^0.0.6"
+  }
+}

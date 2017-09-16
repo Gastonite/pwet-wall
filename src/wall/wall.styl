@@ -1,0 +1,32 @@
+:host
+  height 100%
+  width 100%
+  position absolute
+  top 0
+  left 0
+  overflow-y auto
+  overflow-x hidden
+.bricks
+  display flex
+  flex-wrap wrap
+  overflow-y auto
+  list-style none
+  padding 0
+
+.brick
+  flex var(--flex, 1)
+  border 1px solid black
+  display flex
+  align-items center
+  justify-content center
+  max-width 100%
+  transition all 1s
+
+  img
+    display block
+    flex 1
+    min-width 100%
+    object-fit cover
+    object-position 50% 50%
+    height var(--height)
+    min-height var(--height)
