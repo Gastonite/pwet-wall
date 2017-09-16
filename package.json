@@ -1,6 +1,6 @@
 {
   "name": "pwet-wall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It's just another brick in the wall",
   "main": "index.js",
   "author": "Clément Pasquier <clement@n00sphere.net>",
